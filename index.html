@@ -3,13 +3,13 @@
 
 <head>
     <link rel="icon" href="/img/favicon.jpg">
-    <title>WE ARE THE GAY BROTHERS.COM </title>
+    <title>M&M</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <div class="contact-title">
-        <h1> Say Hello</h1>
+        <h1> GREETINGS</h1>
         <h2> wij zijn altijd bereid te helpen! (voor centjes uiteraard)</h2>
     </div>
 
@@ -26,15 +26,40 @@
         </form>
     </div>
 
-	<div>
-		<img src="/img/img1.jpg" alt="" width="450" height="225"></div>
-		<img src="/img/img2.jpg" alt="" width="450" height="225"></div>
-		<img src="/img/img3.jpg" alt="" width="450" height="225"></div>
-		<img src="/img/img4.jpg" alt="" width="450" height="225"></div>
-		<img src="/img/img5.jpg" alt="" width="450" height="225"></div>
-		<img src="/img/img6.jpg" alt="" width="450" height="225"></div>
-	</div>
-    
+    <!-- COMMENT -> Dit is t foto gedeelte -->
+
+    <div class="single-img">
+            <img src="/img/img1.jpg" alt="" width="450" height="225">
+            <img src="/img/img2.jpg" alt="" width="450" height="225">
+            <img src="/img/img3.jpg" alt="" width="450" height="225">
+            <img src="/img/img4.jpg" alt="" width="450" height="225">
+            <img src="/img/img5.jpg" alt="" width="450" height="225">
+            <img src="/img/img6.jpg" alt="" width="450" height="225">
+        <style>
+            body {
+                background-color: #111;
+            }
+                .img-area {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: stretch;
+                justify-content: flex;
+                }
+                .single-img{
+                padding:0 20px 20px;
+                }
+                img {
+                    border-radius: 5px;
+                    transition: .5s;
+                }
+                img:hover{
+                scale: 150%;
+                border-radius: 10px;
+                }
+        </style>
+    </div>
+
 </body>
 
 </html>
