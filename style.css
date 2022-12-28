@@ -53,4 +53,9 @@ form .submit {
   border-radius: 5px;
   font-family:'Poppins',sans-serif;
   text-transform:uppercase;
+  transition: .1s;
+}
+form .submit:hover {
+  scale: .95;
+  transition: .1s;
 }
