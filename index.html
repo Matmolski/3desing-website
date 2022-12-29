@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="icon" href="img/favicon.jpg">
+    <link rel="icon" href="img/favicon.png">
     <title>M & M</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -9,8 +9,7 @@
 <body>
     <!-- COMMENT -> TITELTJE DR BIJ  -->
     <div class="contact-title"></div>
-    <h1 style="color: white;">WELKOM! <img src="img/wave.jpg" alt="" width="60" height="50" style="position:sticky;">
-    </h1>
+    <h1 style="color: white;">WELKOM! </h1>
     </div>
 
     <!-- COMMENT -> SHAPES -->
@@ -21,19 +20,24 @@
 
     <!-- COMMENT -> FORM -->
     <div class="contact-form">
-        <form id="contact-form" method="post" action="contact-form-handle.php">
+        <form id="contact-form" method="post" action="">
             <input name="name" type="text" class="form-control" placeholder="Full Name" required><br>
             <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
             <textarea name="message" class="form-control" placeholder="Type your message here..." rows="4"
                 required></textarea>
-            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            <input id="submit" type="submit" class="form-control submit" value="Stuur bericht!"
+                onclick="document.getElementById('revealText').style.display='block', document.getElementById('submit').style.display='none'">
+            <div id="revealText" class="sent" style="display: none;">
+                <p><b>Bericht Verstuurd!</b></p>
+            </div>
         </form>
     </div>
 
     <!-- COMMENT -> WIE ZIJN WE EIGENLIJK (cringe text) -->
     <div>
         <h2>Wie zijn we?</h2>
-        <p> Goeiemorgen! Wij zijn <b>Michael</b> en <b>Mathijs</b> en wij zijn geïnteresseerdin Development en Architectuur. We hebben al veel geleerd en
+        <p> Welkom! Wij zijn <b>Michael</b> en <b>Mathijs</b> en wij zijn geïnteresseerdin Development en
+            Architectuur. We hebben al veel geleerd en
             geëxperimenteerd met verschillende software en technieken. We zijn altijd enthousiast om nieuwe dingen te
             proberen. Deze website hebben we zelf gemaakt om ons werk te laten zien en onze kennis met anderen te delen.
             Als u vragen heeft of hulp nodig heeft met 3D-modellen, Renderen of coderen helpen we u graag (zover we dat
@@ -42,7 +46,7 @@
 
     <!-- COMMENT -> MOOOIE PLAATJES TOCH GEK -->
     <div class="single-img">
-        <h2>ONS WERK</h2>
+        <h2>Wat doen we?</h2>
         <img src="img/img1.jpg" alt="" width="450" height="225">
         <img src="img/img2.jpg" alt="" width="450" height="225">
         <img src="img/img3.jpg" alt="" width="450" height="225">
@@ -51,10 +55,6 @@
         <img src="img/img6.jpg" alt="" width="450" height="225">
         <img src="img/img7.jpg" alt="" width="450" height="225">
         <img src="img/img8.jpg" alt="" width="450" height="225">
-        <img src="img/img9.jpg" alt="" width="450" height="225">
-        <img src="img/img10.jpg" alt="" width="450" height="225">
-        <img src="img/img11.jpg" alt="" width="450" height="225">
-        <img src="img/img12.jpg" alt="" width="450" height="225">
     </div>
 
 </body>

@@ -118,14 +118,29 @@ form .submit {
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  transition: 1s;
-  box-shadow: 0 0 50px rgb(5, 2, 77);
+  transition: .5s;
+  box-shadow: 0 0 50px rgb(26, 21, 156);
 }
 
 form .submit:hover {
   scale: 105%;
-  transition: .1s;
-  box-shadow: 0 0 80px rgb(3, 2, 41);
+  box-shadow: 0 0 80px rgb(27, 24, 126);
+}
+
+.sent {
+  background: linear-gradient(to right,
+      #146e1c,
+      #02fd0f);
+  border-color: transparent;
+  font-size: 610px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 100px rgb(21, 156, 44);
 }
 
 /* PLAATJES*/
@@ -139,11 +154,10 @@ form .submit:hover {
 
 img {
   border-radius: 5px;
-  transition: .3s;
+  transition: .5s;
 }
 
 img:hover {
   scale: 120%;
-  position: flex;
   box-shadow: 0 0 50px rgb(5, 2, 77);
 }
