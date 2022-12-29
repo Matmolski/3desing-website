@@ -2,13 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
-@media (max-width: 768px) {
-  .submit {
-    width: 100px;
-  }
-}
-
-/* BODY */
+/* OPBOUW */
 body {
   margin: 0;
   padding: 0;
