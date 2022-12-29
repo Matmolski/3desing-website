@@ -8,7 +8,7 @@ body {
   padding: 0;
   text-align: center;
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(22, 22, 134, 1) 44%, rgba(10, 146, 173, 1) 100%);
+  background: linear-gradient(90deg, rgb(12, 10, 48) 0%, rgb(11, 11, 114) 44%, rgb(9, 71, 143) 100%);
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -65,14 +65,15 @@ p {
   background: linear-gradient(to right,
       #ff512f,
       #f09819);
-  right: 550px;
-  bottom: 600px;
+  right: 450px;
+  bottom: 500px;
   box-shadow: 0 0 100px #f09819;
   height: 200px;
   width: 200px;
   position: absolute;
   border-radius: 5%;
   z-index: -1;
+  rotate: 30deg;
 }
 
 /* FORM */
