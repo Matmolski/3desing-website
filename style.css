@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
+@media (max-width: 768px) {
+  .submit {
+    width: 100px;
+  }
+}
+
 /* BODY */
 body {
   margin: 0;
@@ -14,7 +20,6 @@ body {
   overflow-x: hidden;
 }
 
-/* EXTRA SHIT & TEXT */
 textarea {
   resize: none;
 }
@@ -136,14 +141,18 @@ form .submit:hover {
   font-weight: bold;
   letter-spacing: 2px;
   height: 50px;
-  margin-top: 20px;
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   box-shadow: 0 0 100px rgb(21, 156, 44);
+  scale: 105%;
 }
 
-/* PLAATJES*/
+.sent>p {
+  padding-top: 7px;
+}
+
+/* PLAATJES */
 .img-area {
   display: flex;
   flex-wrap: wrap;
