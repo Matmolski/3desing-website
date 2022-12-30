@@ -2,8 +2,8 @@ function sendEmail() {
     Email.send({
         Host: "smtp.gmail.com",
         Username: "mmdedsign@gmail.com",
-        Password: "bedrijfje2341",
-        To: 'mmdedsign@gmail.com',
+        Password: "bedrijfje2314",
+        To: 'mmdedsigm@gmail.com',
         From: document.getElementById("contact-form"),
         Subject: "Nieuwe mail!",
         Body: "Naam: " + document.getElementById("name").value +
