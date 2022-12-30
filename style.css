@@ -17,9 +17,15 @@ body {
   overflow-x: hidden;
 }
 
-
 textarea {
   resize: none;
+}
+
+h1 {
+  text-align: center;
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -166,9 +172,8 @@ img {
 }
 
 img:hover {
-  scale: 120%;
   box-shadow: 0 0 50px rgb(5, 2, 77);
-  rotate: 10deg;
+  scale: 110%;
 }
 
 @-webkit-keyframes gradientBG {
