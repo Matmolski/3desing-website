@@ -7,12 +7,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(12, 10, 48) 0%, rgb(11, 11, 114) 44%, rgb(9, 71, 143) 100%);
+  color: #fff;
+  background: linear-gradient(-45deg, #20059c, #1322a1, #114c8f, #0ea5b9);
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 20s ease infinite;
+  animation: gradientBG 20s ease infinite;
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
+
 
 textarea {
   resize: none;
@@ -51,8 +55,8 @@ p {
 .shape:first-child {
   background: linear-gradient(#9b22ea,
       #bf23f6);
-  left: 550px;
-  top: 390px;
+  right: 500px;
+  top: 230px;
   box-shadow: 0 0 100px #bf23f6;
   height: 200px;
   width: 200px;
@@ -65,8 +69,8 @@ p {
   background: linear-gradient(to right,
       #ff512f,
       #f09819);
-  right: 450px;
-  bottom: 500px;
+  left: 550px;
+  top: 500px;
   box-shadow: 0 0 100px #f09819;
   height: 200px;
   width: 200px;
@@ -81,7 +85,7 @@ form {
   position: relative;
   padding: 50px;
   width: 600px;
-  min-height: 280px;
+  min-height: 350px;
   display: block;
   justify-content: center;
   align-items: center;
@@ -129,7 +133,7 @@ form .submit:hover {
 
 .sent {
   background: linear-gradient(to right,
-      #146e1c,
+      #15831e,
       #02fd0f);
   border-color: transparent;
   font-size: 610px;
@@ -164,4 +168,33 @@ img {
 img:hover {
   scale: 120%;
   box-shadow: 0 0 50px rgb(5, 2, 77);
+  rotate: 10deg;
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
